@@ -1,3 +1,4 @@
 node_modules/
 frames/
-bad-apple.webm
+processed/
+__pycache__/
