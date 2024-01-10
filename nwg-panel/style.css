@@ -1,0 +1,103 @@
+@define-color main-bg black;
+@define-color fg2 white;
+@define-color main-border black;
+
+#controls-overview > box > box > image {
+  padding: 0px 4px;
+}
+
+#hyprland-workspaces,
+#clock,
+#right-box {
+  padding: 0 12px;
+  border-bottom: 1px solid @main-border;
+  background: @main-bg;
+}
+
+#right-box {
+  padding-left: 24px;
+  border-radius: 0px 0px 0px 999px;
+  border-left: 1px solid @main-border;
+}
+#clock {
+  border-radius: 0px 0px 999px 999px;
+  border-left: 1px solid @main-border;
+  border-right: 1px solid @main-border;
+  border-bottom: 1px solid @main-border;
+  padding: 0px 40px;
+}
+
+#panel-top > box {
+  /* padding: 0px 12px; */
+}
+
+/* Recommended if panel "height" unset or smaller then your theme default button height */
+button {
+  margin: 0px;
+}
+
+/* Top panel in sample config uses this name */
+#panel-top {
+  /* background: transparentize(@theme_bg_color, 0.5); */
+  /* background: mix(@theme_bg_color, transparent, 0.9); */
+  background: transparent;
+  color: white;
+}
+
+#controls-overview {
+}
+
+#hyprland-workspaces {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 16px;
+  border-radius: 0px 0px 90px 0px;
+  border-right: 1px solid @main-border;
+  font-weight: bold;
+}
+
+#hyprland-workspaces #hyprland-workspaces-item {
+  min-width: 8px;
+  margin: 0px 0px;
+  margin: 2px 0px;
+}
+
+#hyprland-workspaces #task-box-focused #hyprland-workspaces-item {
+  background: @fg2;
+  min-width: 40px;
+  color: white;
+  border-radius: 9999px;
+}
+#hyprland-workspaces #task-box-focused #hyprland-workspaces-item label {
+  background: transparent;
+  color: black;
+  padding: 0px 16px;
+}
+
+#hyprland-workspaces #hyprland-workspaces-item label {
+  min-width: 24px;
+  min-height: 10px;
+  background: @main-bg;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+#player-control {
+  min-height: 0px;
+  background: transparent;
+  color: white;
+}
+
+/* Executors usually behave better in monospace fonts */
+#executor-label {
+  font-family: monospace;
+}
+
+/* and so does the Clock */
+#clock {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+
+
