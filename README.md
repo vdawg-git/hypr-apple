@@ -4,6 +4,8 @@ Somewhat messy scripts to get the effect.
 
 Open up an issue if you need help :)
 
+The bar is [`nwg-panel`](https://github.com/nwg-piotr/nwg-panel) and the config is in the folder with the same name.
+
 ## Requirements
 
 Bun, Python
