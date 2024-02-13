@@ -1,5 +1,9 @@
 # hypr-apple
 
+[![Thumbnail](https://img.youtube.com/vi/qO0QDz9lDRw/0.jpg)](https://www.youtube.com/watch?v=qO0QDz9lDRw)
+
+[Youtube Video](https://www.youtube.com/watch?v=qO0QDz9lDRw)
+
 Somewhat messy scripts to get the effect.
 
 Open up an issue if you need help :)
