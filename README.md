@@ -12,7 +12,7 @@ The bar is [`nwg-panel`](https://github.com/nwg-piotr/nwg-panel) and the config 
 
 ## Requirements
 
-Bun, Python
+Bun, Python, ffmpeg
 
 `bun install` and for Python you need to install OpenCv.
 
