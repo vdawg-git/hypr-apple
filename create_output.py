@@ -8,6 +8,8 @@ dirname = os.path.dirname(os.path.abspath(__file__))
 
 image_folder = "frames"
 output_folder = "processed"
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
 
 images = sorted([img for img in os.listdir(image_folder) if img.endswith(".png")])
 height, width, layers = cv2.imread(os.path.join(image_folder, images[0])).shape

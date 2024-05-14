@@ -20,8 +20,8 @@ Bun, Python
 
 If you want to start from scratch:
 
-1. Put all frames of the video into `./frames` with something like ffmpeg
-2. Run `create_output.py`
+1. Run `./extract_frames.sh`
+2. Run `python create_output.py`
 3. Run `bun start.ts`
 
 `output.json` is already available though, so you don't need to process the frames again.
